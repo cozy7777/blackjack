@@ -11,24 +11,26 @@
 
     
 
-    <link href="css/deck-of-cards.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
 </head>
 
 <body>
-
+    <!-- <header>
+        Blackjack
+    </header> -->
     <div class="container">
-
-        <h1>5AM Blackjack SHEEEEEEEESH</h1>   
-
+        
         <h3>Player Cards</h3>
-        <div id="player">  
+        <div id="player" class="cards">  
+            
             <img class="player-box" src="images/Ace-of-Hearts.png">
             <img class="player-box" src="images/Ace-of-Spades.png">
             
         </div>
         <h3>Dealer Cards</h3>
-        <div id="dealer">
+        <div id="dealer" class="cards">
+            
             <img id="hidden-card" src="images/Ace-of-Clubs.png">
             <img src="images/Ace-of-Diamonds.png">
             
@@ -37,7 +39,11 @@
         <button id="deal-btn">PLAY GAME</button>
         <button id="hit-btn">HIT ME</button>
         <button id="stay-btn">STAY</button>
+        <button id="add-money">GIVE ME MONEY</button>
+        <button id="bet">PLACE BET</button>
         <h2>WELCOME TO MY GAME</h2>
+        <div class="game-info">WALLET</div>
+        <div class="game-info">POT</div>
 
     </div>
     

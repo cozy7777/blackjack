@@ -1,0 +1,91 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+/* standard stuff */
+body {
+	background: #555;
+	font-family: 'Open Sans', sans-serif;
+	/* line-height: 1.75;
+	margin-bottom: 30px; */
+}
+
+
+header {
+	background: rgba(0,0,0, .33);
+	padding: 15px 5px;
+    display: flex;
+    /* aligning everything to the left to start with */
+    justify-content: flex-end;
+    /* centering stuff vertically */
+    align-items: center;
+    
+    
+    
+}
+
+
+.logo {
+    /* pushing logo to the right */
+    margin-right: auto; 
+}
+h1 {
+    font-size: 3.5em;
+    /* removing default margin on top and auto left right to center */
+    margin: 0 auto;
+}
+
+nav ul{
+    margin: 0;
+}
+
+header li {
+	list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    color: white;
+}
+nav ul a {
+	color: #fff;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+div img {
+    width: 150px;
+}
+
+/* #game-result {
+    display: flex;
+    justify-content: center;
+    
+    
+} */
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.player-buttons {
+    /* display: flex;
+    justify-content: space-between; */
+    text-align: center;
+    margin-top: 15px;
+}

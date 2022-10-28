@@ -1,10 +1,12 @@
-.container {
+/* .container {
     width: 1000px;
     height: 75vh;
-}
+} */
 
 img {
     width: 175px;
+    
+   
 }
 
 button {
@@ -27,6 +29,24 @@ h2 {
     padding: 30px 30px;
     color: black;
     background-color: orange;
+}
+
+h3 {
+    text-align: center;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.game-info {
+    background-color: orange;
+    width: 100px;
+    display: inline-block;
+    padding: 10px 10px;
+    text-align: center;
+    max-height: 100%;
 }
 
 #hit-btn {

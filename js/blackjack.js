@@ -56,7 +56,7 @@ const dealerImg = document.getElementById('dealer');
 let hiddenCard = document.getElementById('hidden-card')
 
 //grabbing entire image array
-const imgArr = document.querySelectorAll('img');
+const imgArr = document.getElementsByClassName('card-image');
 
 let dealBtn = document.getElementById('deal-btn');
 dealBtn.addEventListener('click', dealCard);
