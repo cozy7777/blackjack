@@ -133,7 +133,7 @@ function dealCard() {
     dealerCardsArr = [];
 
     //resetting buttons and hiding dealer first card
-    hiddenCard.style.visibility = 'hidden';
+    
     hitBtn.style.display = 'inline';
     stayBtn.style.display = 'inline';
     feedback.style.backgroundColor = 'orange';
@@ -170,12 +170,12 @@ function dealCard() {
         Cards Left: ${deckCopy.length}
         `;
     //nested. watching for next button clicks    
-    hitBtn.addEventListener('click', hitMe);
+    hitBtn.addEventListener('click', swapCards);
     stayBtn.addEventListener("click", playerStay);
 }
 
 
-function hitMe() {
+function swapCards() {
      //resetting the deck if less than 1 cards left
     if (deckCopy.length < 1) {
         deckCopy = deckOfCards.slice(0);
@@ -428,8 +428,4 @@ function addMoney() {
     
 }
 
-//need to add login maybe
-//maybe add a class that way i can store the wallet value in the users class sort of like a profile or database without a database?
-//can also store info like password and username to have a log in maybe?
-//login with check against values in the player/user object/class if values are correct login and then display proper info like custom name and wallet etc
-//add money can be something else later.
+

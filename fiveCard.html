@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlackJack</title>
+    <title>Poker</title>
     <link href="css/new.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <a href="home.html" class="logo"><img src="https://pbs.twimg.com/media/FfphErpXkAAVTuX.jpg" style="width:100px;"></a>
-        <h3 id="welcome">Blackjack, Cozy</h3>
+        <h3 id="welcome">Hello, Cozy</h3>
         <h1>STAKE</h1>
         <nav>
             <ul>
@@ -30,8 +30,12 @@
             <h3>Dealer Cards</h3>
             <div id="dealer" class="cards">
             
-                <img id="hidden-card" class="card-image" src="images/Ace-of-Clubs.png">
+                <img class="card-image" src="images/Ace-of-Clubs.png">
                 <img class="card-image" src="images/Ace-of-Diamonds.png">
+                <img class="player-box card-image" src="images/Ace-of-Hearts.png">
+                <img class="player-box card-image" src="images/Ace-of-Hearts.png">
+                <img class="player-box card-image" src="images/Ace-of-Hearts.png">
+                
                 
             </div>
         </section>
@@ -42,9 +46,19 @@
         <section>
             <h3>Player Cards</h3>
             <div id="player" class="cards">  
-            
+                
+                <!-- added checkboxes for swapping later. might need to make a new css sheet to fix this later -->
+                <input type="checkbox">
                 <img class="player-box card-image" src="images/Ace-of-Hearts.png">
+                <input type="checkbox">
                 <img class="player-box card-image" src="images/Ace-of-Spades.png">
+                <input type="checkbox">
+                <img class="player-box card-image" src="images/Ace-of-Hearts.png">
+                <input type="checkbox">
+                <img class="player-box card-image" src="images/Ace-of-Hearts.png">
+                <input type="checkbox">
+                <img class="player-box card-image" src="images/Ace-of-Hearts.png">
+
                 
             </div>
         </section>
@@ -53,7 +67,7 @@
 
         <div class="player-buttons">
             <button id="deal-btn">PLAY GAME</button>
-            <button id="hit-btn">HIT ME</button>
+            <button id="hit-btn">SWAP</button>
             <button id="stay-btn">STAY</button>
             <button id="bet-btn">PLACE BET</button>
             <input type="number" id="player-bet">
@@ -62,7 +76,7 @@
 
     </main>
 
-    <script src="js/blackjack.js"></script>
+    <script src="js/fiveCardPoker.js"></script>
 
 
 </body>

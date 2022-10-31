@@ -23,10 +23,14 @@ header {
 }
 
 
+
 .logo {
     /* pushing logo to the right */
-    margin-right: auto; 
+    margin-right: auto;
+    
 }
+
+
 h1 {
     font-size: 3.5em;
     /* removing default margin on top and auto left right to center */
@@ -74,7 +78,7 @@ h2 {
     text-align: center;
 }
 
-h3 {
+section h3 {
     text-align: center;
 }
 
@@ -88,4 +92,26 @@ h3 {
     justify-content: space-between; */
     text-align: center;
     margin-top: 15px;
+}
+
+#pot {
+    /* display: flex;
+    justify-content: center; */
+    margin-left: auto;
+    margin-right: auto;
+   
+    background-color: #ADD8E6;
+    max-width: 5%;
+    padding: 2px;
+    
+    
+    
+}
+
+#pot p {
+    /* justify-content: center; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
+    
 }
