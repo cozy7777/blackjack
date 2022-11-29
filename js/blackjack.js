@@ -408,7 +408,7 @@ function placeBet() {
     if (playerWallet >= betAmt && playerCardsArr.length < 3) {
         gamePot += betAmt;
         playerWallet -= betAmt;
-        potInfo.innerHTML = '$ ' + gamePot;
+        potInfo.innerHTML = 'POT: $' + gamePot;
         walletInfo.innerHTML = '$ ' + playerWallet;
 
         console.log(gamePot)
